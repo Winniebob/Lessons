@@ -8,9 +8,9 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 int remainder = number1 % number2;
 if ( remainder == 0)
 {
-    Console.WriteLine("Четное");
+    Console.WriteLine("кратное");
 }
 else 
 {
-    Console.WriteLine($" Не четное = {remainder}");
+    Console.WriteLine($" Не кратное = {remainder}");
 }
