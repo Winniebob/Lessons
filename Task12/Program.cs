@@ -6,14 +6,13 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 2");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-String result = remained != 0 ? "кратное" : $" Не кратное = {Remained}";
+int remained = Remained(number1,number2);
+
+String result = remained != 0 ?$" Не кратное = {remained}" : "кратное" ;
 
 Console.WriteLine(result);
 
-int remained = Remained(number1,number2);
-
-int Remained (int num1, num2)
+int Remained (int num1, int num2)
 {
-    int remained = num1 % num2;
-    return  remained;
+    return num1 % num2;
 }
