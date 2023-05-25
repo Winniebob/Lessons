@@ -16,7 +16,7 @@ Console.WriteLine (result ? $"Да это треугольник!" : "Это н�
 
 bool RuzTriangle (int x, int y, int z)
 {
-    if( x < y + z & y < x + z & z < y + x )
+    if( x < y + z && y < x + z && z < y + x )
     {
        return true;
     }
