@@ -7,7 +7,7 @@ Math(numberN);
 
 void Math(int num)
 {
-    for (int i = 0; i <= num; i++) // Работаем с счетчиком , введеное число служит неявным стоп сигналом
+    for (int i = 1; i <= num; i++) // Работаем с счетчиком , введеное число служит неявным стоп сигналом
     {
         int kvadrat = i*i;
         Console.WriteLine ($"{i,3} {kvadrat,5} ");

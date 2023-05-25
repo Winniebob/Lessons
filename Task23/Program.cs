@@ -11,7 +11,7 @@ void Cubos(int num)
     for (int i = 1; i <= num; i++)
     {
         int cubos = i*i*i;
-        Console.WriteLine ($"{i,3} {cubos,5} ");
+        Console.WriteLine ($"{i,2} {cubos} ");
     }
         
 }

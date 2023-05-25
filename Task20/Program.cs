@@ -34,6 +34,6 @@ double Distance (int coordinatesX1, int coordinatesY1, int coordinatesX2, int co
 
     double gip = Math.Sqrt(gipotin3);
 
-    return gip;
+        return gip;
 
 }

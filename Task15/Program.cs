@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите день недели");
+﻿// напишите программу которая принимает на вход цифру, обозначающую день недели и проверяет является ли этот день выходным. 6->да
+
+Console.WriteLine("Введите день недели");
 int weekDay = Convert.ToInt32(Console.ReadLine());
 
 if (ValldateWeekend(weekDay))
