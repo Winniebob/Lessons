@@ -28,7 +28,7 @@ double AkkermanFunction (double numberM, double numberN)
 {
     if (numberM == 0 )
     return numberN+1;
-    else if (numberN == 0 && numberM>0)
+    else if (numberN == 0)
     return AkkermanFunction(numberM-1,1);
     else 
     return AkkermanFunction(numberM-1, AkkermanFunction(numberM,numberN-1));
